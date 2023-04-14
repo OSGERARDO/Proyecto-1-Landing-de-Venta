@@ -1,0 +1,79 @@
+*{    font-family: 'Montserrat', sans-serif;
+box-sizing: border-box;
+margin: 0%;
+max-width: 1400px;}
+
+.h1{font-size:  3.5 em;}
+.h2{font-size: 2.7em;}
+.h3{font-size: 2em;}
+.p{font-size:1.25em}
+.ul{list-style: none;}
+
+.nav{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    min-height: 8vh;
+    background-color: rgb(254, 253, 253);
+    ;
+}
+
+.header.#{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;}
+
+
+#Jumbotron{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    background-color: black;
+    color: aliceblue;
+    min-height: 65vh;
+    padding: 25px;
+}
+
+
+
+.boton1{
+font-size: 1em;
+font-weight: bold;
+padding: 5px 15px;
+border-radius: 10px;
+border-radius: 2px solid red;
+box-shadow: 2px 2px ;
+transition: all 0.3s;
+cursor: pointer;
+margin-right: 8px;
+}
+.boton1:hover{
+    background-color: rgb(255, 234, 0);
+}
+
+.boton-enviar{
+box-shadow: 2px 2px ;
+transition: all 0.3s;
+cursor: pointer;
+margin-right: 8px;
+}
+
+
+.instala{
+    padding: 60px;
+}
+
+.formulario{
+    padding: 40px;
+}
+
+.contacto{
+    padding:30px
+}
+.imagen1{display: flex;
+    justify-content: center;
+    padding: auto;
+}
+}
