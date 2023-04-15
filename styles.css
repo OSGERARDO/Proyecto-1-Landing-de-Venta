@@ -1,86 +1,106 @@
-*{    font-family: 'Montserrat', sans-serif;
-box-sizing: border-box;
-margin: 0%;
-max-width:1400px;
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin:0%;
+    max-width: 1400px;
 }
 
-.h1{font-size:  3.5 em;}
-.h2{font-size: 2.7em;}
-.h3{font-size: 2em;}
-.p{font-size:1.25em}
-.ul{list-style: none;}
+.h1 {
+    font-size: 3.5 em;
+}
+
+.h2 {
+    font-size: 2.7em;
+}
+
+.h3 {
+    font-size: 2em;
+}
+
+.p {
+    font-size: 1.25em
+}
+
+.ul {
+    list-style: none;
+}
 
 
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align:center;
-    background-color: rgb(255, 255, 255);
-    padding:25px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
 }
 
 
 
 .header.#{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;}
+ padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+}
 
 
-#Jumbotron{
+#Jumbotron {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction:column;
+    flex-direction: column;
     background-color: black;
     color: aliceblue;
     min-height: 65vh;
     padding: 25px;
 }
 
-.boton1{
-font-size: 1em;
-font-weight: bold;
-padding: 5px 15px;
-border-radius: 10px;
-transition: all 0.3s;
-cursor: pointer;
-margin-right: 8px;
+.boton1 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-right: 8px;
 
 }
-.boton1:hover{
+
+.boton1:hover {
     background-color: rgb(255, 234, 0);
     transform: translateY(-15px);
-    box-shadow: 0 12 px 16 px rgba(0,0,0,0.2);
+    box-shadow: 0 12 px 16 px rgba(0, 0, 0, 0.2);
 }
 
-.boton-enviar{
-box-shadow: 2px 2px ;
-transition: all 0.3s;
-cursor: pointer;
-margin-right: 8px;
+.boton-enviar {
+    box-shadow: 2px 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-right: 8px;
 }
 
 
-.instala{
+.instala {
     padding: 60px;
 }
 
-.formulario{
+.formulario {
     padding: 40px;
 }
 
-.contacto{
-    padding:30px
+.contacto {
+    padding: 30px
 }
-.imagen1{display: flex;
+
+.imagen1 {
+    display: flex;
     justify-content: center;
     padding: auto;
 }
-.catalogo{
+
+.catalogo {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -89,79 +109,84 @@ margin-right: 8px;
 
 
 
-.header.cards{
-    display:flex;
+.header.cards {
+    display: flex;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.card{
-        display:flex;
-        text-align: center;
-        gap:30px ;
-        justify-content: center;}
-
-.content{
-background-color: #ececec;
-padding: 10px ;
-border-radius: 12px;
-width:350px;
-height:300px;
-box-shadow: 1px 3px 3px 3px rgba(32,32,32);
-cursor: pointer;
+.card {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
 }
-.content:hover{
+
+.content {
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 12px;
+    width: 350px;
+    height: 300px;
+    box-shadow: 1px 3px 3px 3px rgba(32, 32, 32);
+    cursor: pointer;
+}
+
+.content:hover {
     background-color: rgb(0, 0, 0);
     transform: translateY(-15px);
-    box-shadow: 0 12 px 16 px rgba(0,0,0,0.2);
-color: #ffffff;}
-    
+    box-shadow: 0 12 px 16 px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
 
-.imagen-ladron{
+
+.imagen-ladron {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
 }
 
-.productos-garantizados{
+.productos-garantizados {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
 }
 
-.parrafo-final{
+.parrafo-final {
     text-align: center;
 }
 
 
-.container2{
-    background-color:black;
-    color: white;
+.container2 {
+    background-color: black;
+    color: #ececec;
+
 }
 
 
 
 .boton2 {
-font-size: 1em;
-font-weight: bold;
-padding: 5px 15px;
-border-radius: 10px;
-transition: all 0.3s;
-cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
 }
-.boton2:hover{
+
+.boton2:hover {
     background-color: rgb(255, 234, 0);
     transform: translateY(-15px);
-    box-shadow: 0 12 px 16 px rgba(0,0,0,0.2);
+    box-shadow: 0 12 px 16 px rgba(0, 0, 0, 0.2);
 }
 
 
 
 
-.ultima-section{
+.ultima-section {
     padding: 35px;
     display: flex;
     align-items: center;
@@ -169,15 +194,15 @@ cursor: pointer;
 }
 
 
-.visa{
+.visa {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    padding:10px;
+    padding: 10px;
 }
 
 
-.footer{
+.footer {
     align-items: end;
     padding: 10px;
 }
@@ -187,37 +212,46 @@ cursor: pointer;
 /*dispositivos moviles*/
 @media (max-width:600px) {
 
-.nav{
-    display:grid;
-    align-items:center;
-    justify-content:center;
-    background-color: rgb(255, 255, 255);
-    padding:25px;
-}
+    .nav {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(245, 245,245);
+        padding: 25px;
+    }
 
 }
-        .content{
-            display:flex;
-            flex-direction:column;
-            background-color: #ffffff;
-            padding: 10px ;
-            border-radius: 12px;
-            width:300px;
-            height:300px;
-            box-shadow: 1px 3px 3px 3px rgba(32,32,32);
-            cursor:pointer;
+}
 
-        }
-.catalogo1{
+.content {
     display: flex;
-    flex-direction: column;}
-.cards{
-    width: 90%;
-    max-width: 600px;
-    margin: 0 auto;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 3px 3px 3px rgba(32, 32, 32);
+    cursor: pointer;
 
 }
 
-        .content:hover{
-            transform: translateY(-15px);
-            box-shadow: 0 12 px 16 px rgba(0,0,0,0.2);}
+.catalogo1 {
+
+}
+
+.cards {
+    width: 90%;
+    max-width: 60px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+
+
+}
+
+.content:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12 px 16 px rgba(0, 0, 0, 0.2);
+}
