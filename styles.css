@@ -1,7 +1,7 @@
 *{    font-family: 'Montserrat', sans-serif;
 box-sizing: border-box;
 margin: 0%;
-max-width: 1400px;
+max-width:1400px;
 }
 
 .h1{font-size:  3.5 em;}
@@ -10,14 +10,15 @@ max-width: 1400px;
 .p{font-size:1.25em}
 .ul{list-style: none;}
 
+
+
 .nav{
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     text-align:center;
     min-height: 8vh;
     background-color: rgb(254, 253, 253);
-    ;
-    padding: 25PX;
+    padding: 25px;
 }
 
 .header.#{
@@ -43,8 +44,6 @@ font-size: 1em;
 font-weight: bold;
 padding: 5px 15px;
 border-radius: 10px;
-border-radius: 2px solid red;
-box-shadow: 2px 2px ;
 transition: all 0.3s;
 cursor: pointer;
 margin-right: 8px;
@@ -88,26 +87,84 @@ margin-right: 8px;
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 30PX;
+    padding: 50px;
 }
 
 
 
-#.cards{
+.header.cards{
     display:flex;
     text-align: center;
     justify-content:center;
-    
-    }
-     .card{
+}
+
+.card{
         display:flex;
         text-align: center;
         gap:30px ;
-        justify-content: center;
-        flex-wrap: wrap;
-     }
+        justify-content: center;}
+
+        .content {
+            max-width: 200px;}
 
 .imagen-ladron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.productos-garantizados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 30px;
 }
 
+.parrafo-final{
+    text-align: center;
+}
+
+
+.container2{
+    background-color:black;
+    color: white;
+}
+
+
+
+.boton2 {
+font-size: 1em;
+font-weight: bold;
+padding: 5px 15px;
+border-radius: 10px;
+transition: all 0.3s;
+cursor: pointer;
+}
+.boton2:hover{
+    background-color: rgb(255, 234, 0);
+}
+
+
+
+
+.ultima-section{
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visa{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:10px;
+}
+
+
+
+.footer{
+    align-items: end;
+    padding: 100px;
+}
