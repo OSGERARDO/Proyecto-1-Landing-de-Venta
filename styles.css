@@ -13,13 +13,15 @@ max-width:1400px;
 
 
 .nav{
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     text-align:center;
-    min-height: 8vh;
-    background-color: rgb(254, 253, 253);
-    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    padding:25px;
 }
+
+
 
 .header.#{
     padding: 5px 12px;
@@ -155,6 +157,7 @@ cursor: pointer;
     justify-content: center;
 }
 
+
 .visa{
     display: flex;
     align-items:center;
@@ -163,8 +166,15 @@ cursor: pointer;
 }
 
 
-
 .footer{
     align-items: end;
-    padding: 100px;
+    padding: 10px;
 }
+
+
+
+/*dispositivos moviles*/
+@media (max-width:768px) {     body
+    {
+            
+        }}
