@@ -185,7 +185,7 @@ cursor: pointer;
 
 
 /*dispositivos moviles*/
-@media (max-width:768px) {
+@media (max-width:600px) {
 
 .nav{
     display:grid;
@@ -212,9 +212,11 @@ cursor: pointer;
     display: flex;
     flex-direction: column;}
 .cards{
-    display: flex;
-    flex-direction: column;
-}    
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
 
         .content:hover{
             transform: translateY(-15px);
