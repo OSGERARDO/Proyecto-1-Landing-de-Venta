@@ -1,4 +1,4 @@
-# Landing page de instalación de cámaras.:rocket:
+# Landing page de instalación de cámaras.
 *Esta es una landing page diseñada para promocionar nuestros servicios de instalación de cámaras de seguridad. En ella, podrás encontrar información detallada sobre nuestros productos y servicios, así como una forma fácil y rápida de contactarnos para obtener más información o solicitar un presupuesto.*
 
 # Acceda atraves del siguente enlace::warning:
@@ -7,6 +7,7 @@ https://osgerardo.github.io/Proyecto-1-Landing-de-Venta/
 *Esta landing page ha sido diseñada utilizando HTML, CSS.*:computer:
 
 *Requerimientos previos*:bulb:
+
 *No se requieren requisitos previos para acceder a la página.*
 
 *Cómo utilizar esta página*:bulb:
