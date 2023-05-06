@@ -12,5 +12,5 @@ https://osgerardo.github.io/Proyecto-1-Landing-de-Venta/
 *Cómo utilizar esta página*
 *Simplemente acceda a la URL proporcionada en la página y navegue por los distintos apartados para conocer* *más sobre nuestros servicios de instalación de cámaras de seguridad. Si está interesado en solicitar un* *presupuesto o ponerse en contacto con nosotros, siga las instrucciones proporcionadas en la sección "Cómo* *contactarnos".*
 
-¡Gracias por elegir nuestros servicios de instalación de cámaras de seguridad!
+¡Gracias por elegir nuestros servicios de instalación de cámaras de seguridad!:smile:
 
